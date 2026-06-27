@@ -1,7 +1,7 @@
 # 🛒 Walmart Sales Analytics Dashboard
 
 <p align="center">
-  <img src="Charts/Dashboard Thumbnail.jpg" width="100%" alt="Walmart Sales Analytics Dashboard">
+  <img src="Dashboard/Thumbnail.jpg" width="100%" alt="Walmart Sales Analytics Dashboard">
 </p>
 
 <p align="center">
@@ -17,18 +17,11 @@
 
 ---
 
-# 📌 Project Overview
+# 📌 About the Project
 
-This project showcases an **interactive Walmart Sales Analytics Dashboard** built using **Power BI** with **Python** for exploratory data analysis.
+This project presents a **professional Walmart Sales Analytics Dashboard** developed using **Power BI** and **Python** to analyze retail sales performance, seasonal trends, store performance, holiday impact, and external economic indicators.
 
-The dashboard transforms raw retail sales data into actionable business insights by analyzing:
-
-- 📈 Weekly Sales Performance
-- 🏪 Store-wise Sales
-- 📅 Monthly Trends
-- 🎄 Holiday Impact
-- 📊 Economic Indicators
-- 📉 Retail Business Performance
+The dashboard enables users to explore key business metrics through an intuitive and interactive interface.
 
 ---
 
@@ -40,122 +33,125 @@ The dashboard transforms raw retail sales data into actionable business insights
 
 ---
 
-# 🚀 Key Dashboard Features
+# 🚀 Dashboard Highlights
 
-- 📈 Weekly Sales Trend Analysis
-- 💰 KPI Cards
-- 🏪 Store-wise Sales Analysis
-- 📅 Average Monthly Sales
-- 🌊 Monthly Sales Contribution (Waterfall)
-- 🎄 Holiday vs Non-Holiday Analysis
-- 📊 Weekly Sales vs CPI
+- 💰 Total Sales KPI
+- 🏪 Store Performance Analysis
+- 📈 Weekly Sales Trend
+- 📅 Monthly Sales Analysis
+- 🌊 Monthly Sales Contribution
+- 🎄 Holiday vs Non-Holiday Comparison
+- 📊 CPI & Fuel Price Impact
+- 🌡 Temperature Analysis
 - 🎯 Interactive Filters
-- 🌙 Modern Dark Theme Dashboard
+- 🌙 Modern Dark UI Design
 
 ---
 
-# 📈 Visual Insights
+# 📸 Visual Insights
 
 <table>
 <tr>
-<td width="50%">
-<img src="Charts/Overall Weekly Sales Trend.png">
+<td align="center">
+<b>Weekly Sales Trend</b><br>
+<img src="Charts/Overall Weekly Sales Trend.png" width="100%">
 </td>
-<td width="50%">
-<img src="Charts/Average Monthly Sales.png">
+
+<td align="center">
+<b>Average Monthly Sales</b><br>
+<img src="Charts/Average Monthly Sales.png" width="100%">
 </td>
 </tr>
 
 <tr>
-<td width="50%">
-<img src="Charts/Top 10 Walmart Stores by Total Sales.png">
+<td align="center">
+<b>Top Performing Stores</b><br>
+<img src="Charts/Top 10 Walmart Stores by Total Sales.png" width="100%">
 </td>
-<td width="50%">
-<img src="Charts/Weekly Sales During Holiday vs Non-Holiday.png">
+
+<td align="center">
+<b>Holiday Sales Comparison</b><br>
+<img src="Charts/Weekly Sales During Holiday vs Non-Holiday.png" width="100%">
 </td>
 </tr>
 
 <tr>
-<td width="50%">
-<img src="Charts/CPI vs Weekly Sales.png">
+<td align="center">
+<b>CPI vs Weekly Sales</b><br>
+<img src="Charts/CPI vs Weekly Sales.png" width="100%">
 </td>
-<td width="50%">
-<img src="Charts/Fuel Price vs Weekly Sales.png">
+
+<td align="center">
+<b>Fuel Price vs Weekly Sales</b><br>
+<img src="Charts/Fuel Price vs Weekly Sales.png" width="100%">
 </td>
 </tr>
 
 <tr>
-<td width="50%">
-<img src="Charts/Temperature vs Weekly Sales.png">
+<td align="center">
+<b>Temperature vs Weekly Sales</b><br>
+<img src="Charts/Temperature vs Weekly Sales.png" width="100%">
 </td>
-<td width="50%">
-<img src="Charts/Unemployment vs Weekly Sales.png">
-</td>
-</tr>
 
-<tr>
-<td colspan="2">
-<img src="Charts/Correlation Matrix.png">
+<td align="center">
+<b>Correlation Matrix</b><br>
+<img src="Charts/Correlation Matrix.png" width="100%">
 </td>
 </tr>
 </table>
 
 ---
 
-# 📌 Key Performance Indicators
+# 📌 Key KPIs
 
-| KPI | Description |
-|------|-------------|
-| 💰 Total Sales | Overall revenue generated |
-| 🏪 Total Stores | Number of Walmart stores |
-| 📈 Weekly Sales | Average weekly sales |
-| 🎄 Holiday Weeks | Holiday period analysis |
+| Metric | Value |
+|---------|------:|
+| 💰 Total Sales | **6.74B** |
+| 🏪 Total Stores | **45** |
+| 📈 Average Weekly Sales | **1.05M** |
+| 🎄 Holiday Weeks | **450** |
 
 ---
 
 # 💡 Business Insights
 
-✔ Weekly sales exhibit noticeable seasonal patterns.
-
-✔ Holiday weeks significantly influence customer purchasing behavior.
-
-✔ High-performing stores consistently contribute a major share of total revenue.
-
-✔ CPI demonstrates a measurable relationship with retail sales trends.
-
-✔ Economic indicators provide valuable context for understanding business performance.
+- Weekly sales reveal clear seasonal demand patterns.
+- Holiday periods have a measurable impact on retail performance.
+- A small number of stores contribute a significant share of total sales.
+- Economic indicators such as CPI and fuel prices influence weekly sales trends.
+- The dashboard enables quick identification of business opportunities through interactive exploration.
 
 ---
 
 # 🛠️ Tech Stack
 
-- Power BI
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+| Category | Technologies |
+|----------|--------------|
+| Dashboard | Power BI |
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Development | Jupyter Notebook |
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-📦 Walmart-Sales-Analytics-Dashboard
+Walmart-Sales-Analytics-Dashboard
 │
-├── 📁 Dashboard
-│   ├── Walmart Sales Analytics.pbix
-│   └── Walmart Dashboard.pdf
+├── Dashboard
+│   ├── Walmart Sales Analytics Dashboard.pbix
+│   ├── Walmart Sales Analytics Dashboard.pdf
+│   └── Thumbnail.jpg
 │
-├── 📁 Dataset
+├── Dataset
 │   └── Walmart.csv
 │
-├── 📁 Notebook
+├── Notebook
 │   └── Walmart_Sales_Analysis.ipynb
 │
-├── 📁 Charts
-│   ├── Dashboard Thumbnail.png
+├── Charts
 │   ├── Dashboard Preview.png
 │   ├── Overall Weekly Sales Trend.png
 │   ├── Average Monthly Sales.png
@@ -164,8 +160,8 @@ The dashboard transforms raw retail sales data into actionable business insights
 │   ├── CPI vs Weekly Sales.png
 │   ├── Fuel Price vs Weekly Sales.png
 │   ├── Temperature vs Weekly Sales.png
-│   ├── Unemployment vs Weekly Sales.png
-│   └── Correlation Matrix.png
+│   ├── Correlation Matrix.png
+│   └── ...
 │
 └── README.md
 ```
@@ -174,7 +170,7 @@ The dashboard transforms raw retail sales data into actionable business insights
 
 # ▶️ Getting Started
 
-### Clone the Repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/sabirshaikh712/Walmart-Sales-Analytics-Dashboard.git
@@ -183,7 +179,7 @@ git clone https://github.com/sabirshaikh712/Walmart-Sales-Analytics-Dashboard.gi
 ### Open the Dashboard
 
 - Install **Power BI Desktop**
-- Open the `.pbix` file inside the **Dashboard** folder.
+- Open the `.pbix` file from the **Dashboard** folder.
 
 ### Run the Notebook
 
@@ -199,18 +195,17 @@ Notebook/Walmart_Sales_Analysis.ipynb
 
 ---
 
-# ⭐ If you like this project
+# ⭐ Support
 
-Give it a ⭐ on GitHub and feel free to explore the dashboard!
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
 ---
 
 # 👨‍💻 Author
 
-## **Sabir Shaikh**
+## Sabir Shaikh
 
----
 
 <p align="center">
-⭐ Thank you for visiting this repository! ⭐
+⭐ Thanks for visiting this repository! ⭐
 </p>
