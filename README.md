@@ -1,7 +1,7 @@
 # 🛒 Walmart Sales Analytics Dashboard
 
 <p align="center">
-  <img src="Charts/Dashboard Thumbnail.png" width="100%" alt="Walmart Sales Analytics Dashboard">
+  <img src="Charts/Dashboard Thumbnail.jpg" width="100%" alt="Walmart Sales Analytics Dashboard">
 </p>
 
 <p align="center">
