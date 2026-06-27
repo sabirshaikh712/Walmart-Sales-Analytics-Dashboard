@@ -25,14 +25,6 @@ The dashboard enables users to explore key business metrics through an intuitive
 
 ---
 
-# 📊 Dashboard Preview
-
-<p align="center">
-<img src="Charts/Dashboard Preview.png" width="100%" alt="Dashboard Preview">
-</p>
-
----
-
 # 🚀 Dashboard Highlights
 
 - 💰 Total Sales KPI
